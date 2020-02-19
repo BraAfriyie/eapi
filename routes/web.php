@@ -19,5 +19,5 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/forge', function () {
-    return view('Working fine');
+    return 'Working fine';
 });
